@@ -1,0 +1,25 @@
+[[flint]]
+arch = "x86_64"
+git-tree-sha1 = "120261987c9083989109461d70462ad377ddb338"
+libc = "glibc"
+os = "linux"
+
+    [[flint.download]]
+    sha256 = "99ed739e541bf735cb187b4d798677b101f8c766d122686dcdfec0f311fd0a91"
+    url = "https://github.com/benlorenz/flint_jll.jl/releases/download/flint-v0.0.0-dd1021a6+0/flint.v0.0.0-dd1021a6.x86_64-linux-gnu.tar.gz"
+[[flint]]
+arch = "x86_64"
+git-tree-sha1 = "818cbe325ea6955c9b573c7bd8cabd471e6ea2dd"
+os = "windows"
+
+    [[flint.download]]
+    sha256 = "260be0340c194490a28642a1195d97183e7224e576d006d10f165c701b1f4002"
+    url = "https://github.com/benlorenz/flint_jll.jl/releases/download/flint-v0.0.0-dd1021a6+0/flint.v0.0.0-dd1021a6.x86_64-w64-mingw32.tar.gz"
+[[flint]]
+arch = "x86_64"
+git-tree-sha1 = "9d022036ce6f1607ad3a8049433d21afa88fc4c4"
+os = "macos"
+
+    [[flint.download]]
+    sha256 = "98a310eaaf2e57c32864f940b104ef28ffbcec51dab4210eef71d43d1450f1d7"
+    url = "https://github.com/benlorenz/flint_jll.jl/releases/download/flint-v0.0.0-dd1021a6+0/flint.v0.0.0-dd1021a6.x86_64-apple-darwin14.tar.gz"
